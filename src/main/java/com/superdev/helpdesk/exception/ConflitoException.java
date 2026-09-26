@@ -1,7 +1,9 @@
 package com.superdev.helpdesk.exception;
 
-public class ConflitoException extends RuntimeException {
-  public ConflitoException(String message) {
-    super(message);
-  }
+import org.springframework.http.HttpStatus;
+
+public class ConflitoException extends ErroAplicacao {
+    public ConflitoException(String mensagem){
+        super(HttpStatus.CONFLICT, "Conflito", mensagem);
+    }
 }

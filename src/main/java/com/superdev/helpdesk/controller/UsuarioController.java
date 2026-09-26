@@ -1,7 +1,7 @@
 package com.superdev.helpdesk.controller;
 
-import com.superdev.helpdesk.dtos.categoria.UsuarioAtualizarDto;
-import com.superdev.helpdesk.dtos.categoria.UsuarioCriarDto;
+import com.superdev.helpdesk.dtos.usuario.UsuarioAtualizarDto;
+import com.superdev.helpdesk.dtos.usuario.UsuarioCriarDto;
 import com.superdev.helpdesk.models.Usuario;
 import com.superdev.helpdesk.services.UsuarioService;
 import jakarta.validation.Valid;
